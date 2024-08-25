@@ -4,8 +4,8 @@ def send_email(subject, body, to_email):
     try:
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
-        from_email = "yanitay1215@gmail.com"
-        password = "#anitay$$"
+        from_email = "anita198@gmail.com"
+        password = "#password"
         message = f'Subject: {subject}\n\n{body}'
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
